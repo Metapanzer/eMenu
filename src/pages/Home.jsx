@@ -1,17 +1,10 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <motion.div
-      className="max-"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{
-        duration: 0.8,
-        delay: 0.5,
-        ease: [0, 0.71, 0.2, 1.01],
-      }}
-    />
+    <div className="min-h-screen max-w-screen-sm bg-yellow-300 flex flex-col justify-around items-center">
+      <h1>eMenu</h1>
+      <h6>Paperless Menu</h6>
+    </div>
   );
 }
