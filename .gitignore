@@ -11,6 +11,10 @@ node_modules
 dist
 dist-ssr
 *.local
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+.pnp.*
 
 # Editor directories and files
 .vscode/*
